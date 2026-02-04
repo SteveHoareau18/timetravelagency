@@ -143,4 +143,8 @@ export function FAQ() {
       </div>
     </section>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 78ccf5a (chore: update project)

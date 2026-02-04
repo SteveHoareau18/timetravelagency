@@ -7,4 +7,8 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
+<<<<<<< HEAD
 )
+=======
+)
+>>>>>>> 78ccf5a (chore: update project)

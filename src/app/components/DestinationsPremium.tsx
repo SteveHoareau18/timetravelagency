@@ -174,4 +174,8 @@ export function DestinationsPremium({ onBook }: DestinationsPremiumProps) {
       </div>
     </section>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 78ccf5a (chore: update project)
