@@ -188,8 +188,8 @@ timetravelagency/
 
 ## 📝 Crédits
 
-**Créé par Steve HOAREAU**  
-Dans le cadre d'un projet **Montpellier YNOV Campus**
+**Créé par Judin MALIVERT & Steve HOAREAU**  
+Projet réalisé à **Montpellier YNOV Campus**
 
 ### Attributions
 - Composants UI de [shadcn/ui](https://ui.shadcn.com/) sous [licence MIT](https://github.com/shadcn-ui/ui/blob/main/LICENSE.md)
@@ -197,7 +197,7 @@ Dans le cadre d'un projet **Montpellier YNOV Campus**
 
 ## 📄 Licence
 
-Ce projet est un projet éducatif réalisé dans le cadre d'une formation à YNOV Campus Montpellier.
+Ce projet est un projet éducatif réalisé dans le cadre d'une formation à Montpellier YNOV Campus.
 
 ## 🤝 Contributions
 

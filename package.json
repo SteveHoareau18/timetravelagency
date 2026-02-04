@@ -3,6 +3,8 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "author": "Judin MALIVERT & Steve HOAREAU",
+  "description": "Application web interactive d'agence de voyage temporel avec chatbot IA et système de réservation - Projet Montpellier YNOV Campus",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -348,8 +348,11 @@ export default function App() {
           
           <div className="border-t border-slate-800 mt-6 pt-6 text-center">
             <p className="text-gray-500 text-sm">
-              Créé par <span className="text-amber-500 font-semibold">Steve HOAREAU</span> dans le cadre d'un projet{' '}
-              <span className="text-gray-400">Montpellier YNOV Campus</span>
+              Créé par <span className="text-amber-500 font-semibold">Judin MALIVERT</span> et{' '}
+              <span className="text-amber-500 font-semibold">Steve HOAREAU</span>
+            </p>
+            <p className="text-gray-400 text-xs mt-2">
+              Projet réalisé à <span className="text-amber-500">Montpellier YNOV Campus</span>
             </p>
           </div>
         </div>
