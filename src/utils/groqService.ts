@@ -10,7 +10,7 @@ export class GroqService {
   constructor(apiKey: string, config?: Partial<GroqConfig>) {
     this.apiKey = apiKey;
     this.config = {
-      model: 'mixtral-8x7b-32768',
+      model: 'llama-3.3-70b-versatile',
       temperature: 0.7,
       maxTokens: 500,
       topP: 1,
