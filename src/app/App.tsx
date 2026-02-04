@@ -248,9 +248,13 @@ export default function App() {
             viewport={{ once: true }}
             className="max-w-3xl mx-auto text-center p-10 bg-gradient-to-r from-amber-500/10 to-yellow-600/10 border border-amber-500/30 rounded-2xl"
           >
+<<<<<<< HEAD
             <h3 className="text-2xl font-bold text-white mb-4">
               Rejoignez 50 000+ voyageurs temporels
             </h3>
+=======
+            <h3 className="text-2xl font-bold text-white mb-4">Rejoignez 50 000+ voyageurs temporels</h3>
+>>>>>>> 78ccf5a (chore: update project)
             <p className="text-gray-300 mb-8">
               Inscrivez-vous à notre newsletter pour recevoir nos offres exclusives et guides de voyage
             </p>

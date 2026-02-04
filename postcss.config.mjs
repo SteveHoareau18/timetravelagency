@@ -12,4 +12,8 @@
  *
  * Otherwise, you can leave this file empty.
  */
+<<<<<<< HEAD
 export default {}
+=======
+export default {}
+>>>>>>> 78ccf5a (chore: update project)

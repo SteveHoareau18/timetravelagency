@@ -1,6 +1,10 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
+<<<<<<< HEAD
 import { Calendar, Clock, Star, X, ChevronRight, Sparkles } from 'lucide-react';
+=======
+import { Calendar, MapPin, Clock, Star, X, ChevronRight } from 'lucide-react';
+>>>>>>> 78ccf5a (chore: update project)
 
 export interface DestinationPremium {
   id: string;
@@ -264,4 +268,8 @@ export function DestinationCardPremium({ destination, onBook }: DestinationCardP
       </AnimatePresence>
     </>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 78ccf5a (chore: update project)

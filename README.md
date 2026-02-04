@@ -1,6 +1,10 @@
 # TimeTravel Agency 🕰️
 
+<<<<<<< HEAD
 > Une webapp moderne et immersive pour une agence de voyage temporel fictive
+=======
+> Une webapp moderne et immersive pour une agence de voyage temporel fictive propulsée par l'IA Groq
+>>>>>>> 78ccf5a (chore: update project)
 
 ![TimeTravel Agency](https://img.shields.io/badge/Version-1.0.0-amber?style=for-the-badge)
 ![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=for-the-badge&logo=react)
@@ -47,13 +51,22 @@ Trois destinations soigneusement conçues :
    - Difficulté : Modéré
 
 ### 🤖 ChatBot Premium
+<<<<<<< HEAD
 Assistant conversationnel intelligent qui répond aux questions sur :
+=======
+Assistant conversationnel intelligent propulsé par **Groq AI** qui répond aux questions sur :
+>>>>>>> 78ccf5a (chore: update project)
 - Les tarifs et packages
 - La sécurité temporelle
 - Les équipements fournis
 - Les politiques d'annulation
 - Les conseils personnalisés
 
+<<<<<<< HEAD
+=======
+**✨ Nouveau** : Le chatbot utilise l'API Groq pour des réponses intelligentes et contextuelles basées sur l'IA.
+
+>>>>>>> 78ccf5a (chore: update project)
 ### 📋 Système de Réservation
 Formulaire en 3 étapes avec :
 - **Étape 1** : Sélection voyageurs + date de départ
@@ -77,6 +90,10 @@ Questions-réponses détaillées sur :
 - **Vite 6.3.5** - Build tool ultra-rapide
 - **Tailwind CSS 4.1** - Framework CSS utility-first
 - **Motion (Framer Motion) 12.23** - Bibliothèque d'animations
+<<<<<<< HEAD
+=======
+- **Groq AI** - Intelligence artificielle pour le chatbot
+>>>>>>> 78ccf5a (chore: update project)
 - **Lucide React** - Icônes modernes
 - **Material UI** - Composants UI supplémentaires
 
@@ -99,6 +116,37 @@ npm install
 yarn install
 ```
 
+<<<<<<< HEAD
+=======
+## ⚙️ Configuration
+
+### Configuration de l'API Groq (Chatbot IA)
+
+Pour activer le chatbot intelligent avec Groq AI :
+
+1. **Créer un compte Groq** : 
+   - Rendez-vous sur [https://console.groq.com](https://console.groq.com)
+   - Créez un compte gratuit
+
+2. **Obtenir une clé API** :
+   - Allez sur [https://console.groq.com/keys](https://console.groq.com/keys)
+   - Cliquez sur "Create API Key"
+   - Copiez votre clé API
+
+3. **Configurer les variables d'environnement** :
+   ```bash
+   # Copier le fichier .env.example
+   cp .env.example .env
+   
+   # Éditer .env et ajouter votre clé API
+   VITE_GROQ_KEY=gsk_votre_clé_api_groq_ici
+   ```
+
+4. **Redémarrer le serveur de développement**
+
+> **Note** : Le chatbot fonctionne sans clé API en mode "assistant basique" avec des réponses prédéfinies. La clé Groq active les réponses intelligentes contextuelles.
+
+>>>>>>> 78ccf5a (chore: update project)
 ## 🚀 Lancement
 
 ```bash
@@ -125,14 +173,27 @@ timetravelagency/
 │   │       ├── HeroNew.tsx                  # Hero section avec animations
 │   │       ├── DestinationsPremium.tsx      # Liste des destinations
 │   │       ├── DestinationCardPremium.tsx   # Carte de destination
+<<<<<<< HEAD
 │   │       ├── ChatBotPremium.tsx           # Assistant conversationnel
 │   │       ├── BookingFormPremium.tsx       # Formulaire de réservation
 │   │       ├── FAQ.tsx                      # Questions fréquentes
 │   │       └── ui/                          # Composants UI (shadcn)
+=======
+│   │       ├── ChatBotPremium.tsx           # Assistant conversationnel IA
+│   │       ├── BookingFormPremium.tsx       # Formulaire de réservation
+│   │       ├── FAQ.tsx                      # Questions fréquentes
+│   │       └── ui/                          # Composants UI (shadcn)
+│   ├── utils/
+│   │   └── groqService.ts                   # Service API Groq
+>>>>>>> 78ccf5a (chore: update project)
 │   └── styles/
 │       ├── index.css                        # Point d'entrée CSS
 │       ├── tailwind.css                     # Configuration Tailwind v4
 │       └── theme.css                        # Thème et variables CSS
+<<<<<<< HEAD
+=======
+├── .env.example                             # Exemple de variables d'environnement
+>>>>>>> 78ccf5a (chore: update project)
 ├── package.json
 ├── vite.config.ts
 └── README.md
